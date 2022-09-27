@@ -1,18 +1,18 @@
 {
   "author": {
-    "name": "Brian Holt",
-    "company": "Stripe"
+    "name": "Mian Muhammad",
+    "company": ""
   },
-  "title": "Next.js Course Starter Kit",
-  "subtitle": "for Frontend Masters",
-  "frontendMastersLink": "https://frontendmasters.com/courses/complete-react-v6/",
+  "title": "Data Structures and Algorithm",
+  "subtitle": "",
+  "frontendMastersLink": "",
   "social": {
-    "linkedin": "btholt",
-    "github": "btholt",
-    "twitter": "holtbt"
+    "linkedin": "mian-muhammad",
+    "github": "mian-muhammad",
+    "twitter": "mian__muhammad"
   },
-  "description": "A starter kit for making really amazing courses, optimized for Frontend Masters",
+  "description": "An intro to Data Structures and Algorithms.",
   "keywords": ["your", "Google", "keywords", "here"],
-  "productionBaseUrl": "/next-course-starter",
+  "productionBaseUrl": "/dsa",
   "csvPath": "./out/lessons.csv"
 }

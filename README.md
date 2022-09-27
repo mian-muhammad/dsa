@@ -114,12 +114,6 @@ If you want a custom domain, make sure you uncomment the `fqdn` field in [.githu
 - `npm run start` - Start an already-built server.
 - `npm run csv` – Will generate the CSV of the metadata from your course. Note you may have to run build first, depending on your csvPath.
 
-## Analytics
-
-By default this doesn't generate any analytics. If you are creating a Frontend Masters course and would like a weekly report of analytics, contact me (Brian Holt) and I'll give you a snippet to drop on your page (though fair warning, I will also have access to your data, if that bothers you.)
-
-Otherwise I'm pretty pleased with [Simple Analytics](referral.simpleanalytics.com/brian) (this is a referral link, free month for me and free month for you); I've been using them for my courses personally.
-
 ## License
 
 The **code** is this repo is licensed under the Apache 2.0 license.
