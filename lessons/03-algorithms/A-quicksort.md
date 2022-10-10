@@ -23,14 +23,14 @@ Quicksort is a recursive sorting algorithm. In this algorithm, the hard work is 
 
 ## Implementation
 
-```javascript
-function quickSort(nums) {
+```typescript
+function quickSort(nums: number[]) {
   if (nums.length <= 1) return nums;
 
-  const pivot = nums[nums.length - 1];
+  const pivot: number = nums[nums.length - 1];
 
-  const left = [];
-  const right = [];
+  const left: number[] = [];
+  const right: number[] = [];
 
   for (let i = 0; i < nums.length - 1; i++) {
     if (nums[i] < pivot) {
@@ -44,5 +44,37 @@ function quickSort(nums) {
   quickSort(right);
 
   return [...quickSort(left), pivot, ...quickSort(right)];
+}
+```
+
+In place implementation of Quick Sort
+
+```typescript
+quicksort(arr: number[], low: number, high: number) {
+  if(low < high) {
+    const p = partition(arr,low,high);
+
+    quick(arr, low, p - 1);
+    quick(arr, p + 1, high);
+  }
+}
+
+partition(arr: number[], a:number, b: number) {
+  const pivot = arr[high];
+  let i = low;
+
+  for(let j = low; j < high; j++) {
+    if(arr[j] < pivot) {
+      swap(arr,i,j);
+      i++
+    }
+  }
+  swap(arr, i, high);
+}
+
+private swap(arr: number[], a: number, b: number) {
+  const tmp = arr[a];
+  arr[a] = arr[b];
+  arr[b] = tmp;
 }
 ```
