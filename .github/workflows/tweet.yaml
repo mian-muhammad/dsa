@@ -1,10 +1,8 @@
 name: Send a Tweet
-
-on:
+"on":
   push:
     branches:
       - main
-
 jobs:
   steps:
     - name: Tweet
@@ -12,7 +10,7 @@ jobs:
       with:
         status: "Hi, this is a test!"
       env:
-        CONSUMER_API_KEY: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
-        CONSUMER_API_SECRET_KEY: ${{ secrets.TWITTER_CONSUMER_API_SECRET }}
-        ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
-        ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+        CONSUMER_API_KEY: "${{ secrets.TWITTER_CONSUMER_API_KEY }}"
+        CONSUMER_API_SECRET_KEY: "${{ secrets.TWITTER_CONSUMER_API_SECRET }}"
+        ACCESS_TOKEN: "${{ secrets.TWITTER_ACCESS_TOKEN }}"
+        ACCESS_TOKEN_SECRET: "${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}"
