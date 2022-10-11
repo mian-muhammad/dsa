@@ -1,10 +1,10 @@
 name: Tweet about release
 
-on:
-  push:
-    branches:
-      - main
+on: deployment
 
+jobs:
+  tweet:
+    runs-on: ubuntu-latest
 env:
   CONSUMER_API_KEY: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
   CONSUMER_API_SECRET_KEY: ${{ secrets.TWITTER_CONSUMER_API_SECRET_KEY }}
