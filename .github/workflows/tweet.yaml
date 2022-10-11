@@ -4,6 +4,8 @@ name: Send a Tweet
     branches:
       - main
 jobs:
+  tweet:
+    runs-on: ubuntu-latest
   steps:
     - name: Tweet
       uses: xorilog/twitter-action@master
