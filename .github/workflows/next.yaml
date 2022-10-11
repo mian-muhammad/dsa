@@ -21,7 +21,7 @@ jobs:
           build_dir: out
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Tweet about commit
+      - name: Tweet
         uses: snow-actions/tweet@v1.3.0
         with:
           status: |
