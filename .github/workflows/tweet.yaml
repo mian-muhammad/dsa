@@ -1,3 +1,10 @@
+name: Tweet about release
+
+on:
+  push:
+    branches:
+      - main
+
 env:
   CONSUMER_API_KEY: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
   CONSUMER_API_SECRET_KEY: ${{ secrets.TWITTER_CONSUMER_API_SECRET_KEY }}
@@ -12,9 +19,6 @@ steps:
       status: |
         Released ${{ github.event.release.name }}
         ${{ github.event.release.html_url }}
-      media_paths: |
-        1st.png
-        2nd.png
   - name: Tweet details
     uses: snow-actions/tweet@v1.3.0
     with:
