@@ -22,8 +22,8 @@ jobs:
           # fqdn: sql.holt.courses
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          uses: xorilog/twitter-action@master
       - name: Tweet
+        uses: xorilog/twitter-action@master
       - message: "Hi, this is a test tweet!"
         env:
           TWITTER_CONSUMER_KEY: "${{ secrets.TWITTER_CONSUMER_API_KEY }}"
