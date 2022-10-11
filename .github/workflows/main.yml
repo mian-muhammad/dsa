@@ -1,7 +1,10 @@
-name: tweet-release
+name: tweet-push
 
-# Listen to the `release` event
-on: deployment
+# Listen to the `push` event
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   tweet:
