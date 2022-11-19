@@ -1,0 +1,11 @@
+order,sectionTitle,lessonTitle,slug,sectionIcon,filePath,description
+01A,The Big O Notation,What is an Algorithm?,the-big-o-notation/intro,info-circle,/lessons/the-big-o-notation/intro,The introduction to this course.
+01B,The Big O Notation,Algorithmic Complexity,the-big-o-notation/complexity,info-circle,/lessons/the-big-o-notation/complexity,The introduction to Algorithmic Complexity.
+01C,The Big O Notation,Measuring Algorithmic Complexity.,the-big-o-notation/measuring-algorithmic-complexity,info-circle,/lessons/the-big-o-notation/measuring-algorithmic-complexity,The introduction to this course.
+01D,The Big O Notation,Common Algorithmic Complexities,the-big-o-notation/common-complexities,info-circle,/lessons/the-big-o-notation/common-complexities,The introduction to this course.
+02A,Data Structures,What are Data Structures?,data-structures/intro,dumpster-fire,/lessons/data-structures/intro,Introduction to Data Structures.
+02B,Data Structures,What are Arrays?,data-structures/arrays,dumpster-fire,/lessons/data-structures/arrays,An Introduction to Arrays.
+03A,Algorithms,What is Linear Search?,algorithms/linear-search,file-code,/lessons/algorithms/linear-search,Introduction to Linear Search Algorithm.
+03B,Algorithms,What is Binary Search?,algorithms/binary-search,file-code,/lessons/algorithms/binary-search,Introduction to Binary Search Algorithm.
+03C,Algorithms,What is quicksort?,algorithms/quick-sort,file-code,/lessons/algorithms/quick-sort,Introduction quicksort Algorithm.
+03D,Algorithms,What is Merge Sort?,algorithms/merge-sort,file-code,/lessons/algorithms/merge-sort,Introduction to Merge Sort Algorithm.
